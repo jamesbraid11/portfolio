@@ -1,5 +1,5 @@
 
-#skills {
+#skills-screen {
   width: 100%;
   height: calc(100vh - 60px);
   background-image: url('../assets/images/background.jpg');
@@ -17,7 +17,7 @@
 
 .skills-container {
   width: 80%;
-  padding: 100px 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

@@ -29,7 +29,7 @@ import { TbBrandVscode } from "react-icons/tb";
 
 export default function Skills() {
   return (
-    <section id="skills">
+    <section id="skills-screen">
       <h1>Skills</h1>
       <div className='skills-container'>
         <div>
