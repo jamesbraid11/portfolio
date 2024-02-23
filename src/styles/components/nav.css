@@ -1,0 +1,15 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scroll-link {
+  margin: 20px;
+  color: black;
+  font-weight: bold;
+}/*# sourceMappingURL=nav.css.map */

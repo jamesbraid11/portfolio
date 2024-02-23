@@ -1,0 +1,15 @@
+
+#hero-screen {
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+  background-image: url('../assets/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
