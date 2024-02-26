@@ -11,6 +11,10 @@ import './App.css'
 
 function App() {
 
+  function scrollEvent(e) {
+    console.log(e)
+  }
+
   return (
     <>
       <Nav />

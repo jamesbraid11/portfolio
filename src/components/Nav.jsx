@@ -10,15 +10,15 @@ export default function Nav() {
   return (
     <header>
       <div className='scroll-buttons'>
-        <Link to='hero' offset={-150} spy={true} smooth={true} duration={500} className='scroll-link' id='home-link'>James Braid</Link>
+        <Link to='hero' offset={-60} spy={true} smooth={true} duration={500} className='scroll-link' id='home-link'>James Braid</Link>
         {/* <Link to='hero' offset={-150} spy={true} smooth={true} duration={500} id='home-icon'><img src={logo} alt={`A picture of the sites logo (A stylised Osprey head)`} /></Link> */}
       </div>
 
       <div className='scroll-buttons' id='nav-right'>
-        <Link to='about' offset={-150} spy={true} smooth={true} duration={300} className='scroll-link'>About</Link>
-        <Link to='skills' offset={-150} spy={true} smooth={true} duration={300} className='scroll-link'>Skills</Link>
-        <Link to='projects' offset={-150} spy={true} smooth={true} duration={300} className='scroll-link'>Projects</Link>
-        <Link to='contact' offset={-150} spy={true} smooth={true} duration={300} className='scroll-link'>Contact</Link>
+        <Link to='about' offset={-60} spy={true} smooth={true} duration={300} className='scroll-link'>About</Link>
+        <Link to='skills' offset={-60} spy={true} smooth={true} duration={300} className='scroll-link'>Skills</Link>
+        <Link to='projects' offset={-60} spy={true} smooth={true} duration={300} className='scroll-link'>Projects</Link>
+        <Link to='contact' offset={-60} spy={true} smooth={true} duration={300} className='scroll-link'>Contact</Link>
       </div>
       {/* <Menu right>
         <Link to='about-me' onClick={handleSidebarLink} offset={-150} spy={true} smooth={true} duration={300} className='menu-link'>About Me</Link>
