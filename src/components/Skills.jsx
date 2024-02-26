@@ -33,7 +33,7 @@ export default function Skills() {
       <h1>Skills</h1>
       <div className='skills-container'>
         <div>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35}>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35}>
             <div className='skills-card-inner'>
               <FaHtml5 className='skills-icon' />
               <p className='skills-name'>HTML</p>
@@ -41,7 +41,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up" data-aos-delay='500'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up" data-aos-delay='500'>
             <div className='skills-card-inner'>
               <FaCss3Alt className='skills-icon' />
               <p className='skills-name'>CSS</p>
@@ -49,7 +49,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up" data-aos-delay='500'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up" data-aos-delay='500'>
             <div className='skills-card-inner'>
               <DiJavascript className='skills-icon' />
               <p className='skills-name'>JavaScript</p>
@@ -57,23 +57,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <FaSass className='skills-icon' />
-              <p className='skills-name'>Sass</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <FaBootstrap className='skills-icon' />
-              <p className='skills-name'>Bootstrap</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <FaReact className='skills-icon' />
               <p className='skills-name'>React.js</p>
@@ -81,39 +65,23 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
-              <SiVite className='skills-icon' />
-              <p className='skills-name'>Vite</p>
+              <FaSass className='skills-icon' />
+              <p className='skills-name'>Sass</p>
             </div>
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
-              <SiAxios className='skills-icon' />
-              <p className='skills-name'>Axios</p>
+              <FaBootstrap className='skills-icon' />
+              <p className='skills-name'>Bootstrap</p>
             </div>
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <FaPython className='skills-icon' />
-              <p className='skills-name'>Python</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <SiDjango className='skills-icon' />
-              <p className='skills-name'>Django</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <SiMongodb className='skills-icon' />
               <p className='skills-name'>MongoDB</p>
@@ -121,7 +89,7 @@ export default function Skills() {
           </Tilt>
         </div >
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <SiMongoose className='skills-icon' />
               <p className='skills-name'>Mongoose</p>
@@ -129,15 +97,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <FaNode className='skills-icon' />
-              <p className='skills-name'>Node.js</p>
-            </div>
-          </Tilt>
-        </div >
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <TbApi className='skills-icon' />
               <p className='skills-name'>ExpressAPI</p>
@@ -145,23 +105,31 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
-              <BiLogoPostgresql className='skills-icon' />
-              <p className='skills-name'>PostgreSQL</p>
+              <FaPython className='skills-icon' />
+              <p className='skills-name'>Python</p>
             </div>
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
-              <TbTablePlus className='skills-icon' />
-              <p className='skills-name'>TablePlus</p>
+              <SiDjango className='skills-icon' />
+              <p className='skills-name'>Django</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <FaNode className='skills-icon' />
+              <p className='skills-name'>Node.js</p>
             </div>
           </Tilt>
         </div >
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <FaNpm className='skills-icon' />
               <p className='skills-name'>npm</p>
@@ -169,7 +137,7 @@ export default function Skills() {
           </Tilt>
         </div >
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <SiJsonwebtokens className='skills-icon' />
               <p className='skills-name'>JWT</p>
@@ -177,7 +145,39 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <SiVite className='skills-icon' />
+              <p className='skills-name'>Vite</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <SiAxios className='skills-icon' />
+              <p className='skills-name'>Axios</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <BiLogoPostgresql className='skills-icon' />
+              <p className='skills-name'>PostgreSQL</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <TbTablePlus className='skills-icon' />
+              <p className='skills-name'>TablePlus</p>
+            </div>
+          </Tilt>
+        </div >
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <BiLogoNetlify className='skills-icon' />
               <p className='skills-name'>Netlify</p>
@@ -185,7 +185,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <SiHeroku className='skills-icon' />
               <p className='skills-name'>Heroku</p>
@@ -193,7 +193,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <FaCloud className='skills-icon' />
               <p className='skills-name'>Cloudinary</p>
@@ -201,7 +201,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card1 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <FaGithub className='skills-icon' />
               <p className='skills-name'>GitHub</p>
@@ -209,7 +209,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card2 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <SiInsomnia className='skills-icon' />
               <p className='skills-name'>Insomnia</p>
@@ -217,7 +217,7 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card3 parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <TbBrandVscode className='skills-icon' />
               <p className='skills-name'>VS Code</p>
