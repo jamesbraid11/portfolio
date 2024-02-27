@@ -39,11 +39,15 @@
   .project-image {
     width: 375px;
     height: 230px;
+    border: 2px solid black;
+    border-radius: 15px;
   }
   .links {
     margin: 1.5em;
     a {
       margin: 0 1em;
+      color: turquoise;
+      font-weight: bold;
     }
   }
   .project-description {

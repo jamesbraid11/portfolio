@@ -83,6 +83,14 @@ export default function Skills() {
         <div data-aos="zoom-in-up" data-aos-delay='200'>
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
+              <TbApi className='skills-icon' />
+              <p className='skills-name'>ExpressAPI</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
               <SiMongodb className='skills-icon' />
               <p className='skills-name'>MongoDB</p>
             </div>
@@ -93,14 +101,6 @@ export default function Skills() {
             <div className='skills-card-inner'>
               <SiMongoose className='skills-icon' />
               <p className='skills-name'>Mongoose</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <TbApi className='skills-icon' />
-              <p className='skills-name'>ExpressAPI</p>
             </div>
           </Tilt>
         </div>
