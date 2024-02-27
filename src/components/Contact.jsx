@@ -13,11 +13,11 @@ export default function Contact() {
         </div>
         <div className="link-container">
           <FaLinkedin fill="white" />
-          <a href="https://linkedin.com/in/jamesbraid11">linkedin.com/in/jamesbraid11</a>
+          <a href="https://linkedin.com/in/jamesbraid11" target="_blank">linkedin.com/in/jamesbraid11</a>
         </div>
         <div className="link-container">
           <FaGithub fill="white" />
-          <a href="https://github.com/jamesbraid11">github.com/jamesbraid11</a>
+          <a href="https://github.com/jamesbraid11" target="_blank">github.com/jamesbraid11</a>
         </div>
       </div>
     </section>

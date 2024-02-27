@@ -35,7 +35,7 @@ export default function TextAnimation() {
         <h2>Full Stack</h2>
         <h2>React</h2>
         <h2>JavaScript</h2>
-        <h2>MongoDB</h2>
+        <h2>Express</h2>
         <h2>Django</h2>
         <h2>Python</h2>
       </div>
