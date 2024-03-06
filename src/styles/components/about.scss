@@ -48,3 +48,27 @@
 .about-p {
   margin-top: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .about {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+  }
+  .about-p {
+    font-size: 14px;
+  }
+  .about-text {
+    width: 300px;
+    height: 435px;
+  }
+}

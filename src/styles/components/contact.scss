@@ -36,3 +36,17 @@
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .link-container {
+    margin: 20px 0;
+    svg {
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+    }
+    a {
+      font-size: 1.2em;
+    }
+  }
+}
