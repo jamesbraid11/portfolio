@@ -57,16 +57,19 @@
 }
 
 @media screen and (max-width: 600px) {
+  .skills-container {
+    width: 100%;
+  }
   .skills-card {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
   .skills-icon {
-    width: 27px;
-    height: 27px;
+    width: 33px;
+    height: 33px;
   }
   .skills-name {
-    font-size: 7px;
+    font-size: 9px;
     margin: 0;
   }
 }

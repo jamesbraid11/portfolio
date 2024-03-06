@@ -5,7 +5,7 @@ export default function About() {
       <h1>About</h1>
       <div className="about-container">
         <div className="about about-image"></div>
-        <div className="about about-text">
+        <div className="about" id="about-text">
           <p className="about-p">
             In my career to date, I've navigated diverse industries, honing my skills in problem-solving and creative thinking. My journey, from optimising ATM maintenance at RBS to shaping students' growth as a primary school teacher, has fueled my passion for development. Now fully immersed in my career as a developer, I bring a growth mindset and leadership experience.
           </p>
