@@ -14,11 +14,10 @@
 
 body {
   margin: 0;
-  // min-width: 375px;
   width: 100%;
-  // min-height: 100vh;
   display: flex;
   background-color: turquoise;
+  overflow-x: hidden;
 }
 
 #root {
