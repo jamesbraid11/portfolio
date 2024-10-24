@@ -1,19 +1,19 @@
+import ProfileImage from "/src/assets/images/profile-pic.jpg"
 
 export default function About() {
   return (
     <section id="about-screen">
       <h1>About</h1>
-      <div className="about-container">
-        <div className="about about-image"></div>
-        <div className="about" id="about-text">
-          <p className="about-p">
-            In my career to date, I've navigated diverse industries, honing my skills in problem-solving and creative thinking. My journey, from optimising ATM maintenance at RBS to shaping students' growth as a primary school teacher, has fueled my passion for development. Now fully immersed in my career as a developer, I bring a growth mindset and leadership experience.
+      <div className="container about-container">
+        <div className="about about-image">
+          <img className="profile-image" src={ProfileImage} alt="James Braid software engineer profile image" />
+        </div>
+        <div className="about about-text">
+          <p className="about-p about-p-top">
+            In my current role as a freelance WordPress Elementor Developer with Mota Creative, I specialise in transforming visually compelling designs into fully functional and responsive websites. I collaborate with designers, project managers, and clients to ensure design concepts are seamlessly turned into interactive web experiences. By leveraging WordPress and Elementor, I develop custom themes and layouts, focusing on both performance and user experience. This position has strengthened my skills in mobile-first design, UI/UX best practices, agile working and website optimisation, while reinforcing my ability to deliver engaging, high quality digital solutions efficiently.
           </p>
-          <p className="about-p">
-            My commitment to excellence extends beyond coding – I've excelled in communication, organisational prowess, and professional development. As a former teacher, I bring a reflective and dynamic work ethic, consistently delivering innovative solutions. With a keen eye for efficiency and an engaging approach, I thrive in collaborative environments. I am not just a developer; I am a dedicated professional who brings a wealth of skills and a passion for impactful and creative work.
-          </p>
-          <p className="about-p">
-            Outside of my professional life, I enjoy DJing and fine dining. I also love all things football: I have had a Crystal Palace season ticket for many years now, and I enjoy playing online fantasy football with friends.
+          <p className="about-p about-p-bottom">
+            Prior to this, driven by a passion for creative problem solving, I completed an intensive software engineering course with General Assembly where I developed four projects, including two full stack applications. This experience has equipped me with a strong foundation in programming, particularly in TypeScript, JavaScript, HTML, CSS, and Git. I have a deep interest in front end development with React, using hooks, React Router, and JSX to build intuitive interfaces. Additionally, I have strong experience with Python, having built the back end of my final project using Django. Having also worked with relational and non-relational databases, API integration and JSON Web Tokens, my technical acumen is ready to contribute meaningfully to any team.
           </p>
         </div>
       </div>

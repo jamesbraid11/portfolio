@@ -33,11 +33,11 @@ export default function TextAnimation() {
     <>
       <div className="animation-wrapper">
         <h2>Full Stack</h2>
-        <h2>JavaScript</h2>
+        <h2>TypeScript</h2>
         <h2>React</h2>
-        <h2>Express</h2>
         <h2>Python</h2>
         <h2>Django</h2>
+        <h2>Elementor</h2>
       </div>
     </>
   )

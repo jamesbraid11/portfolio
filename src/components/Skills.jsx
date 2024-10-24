@@ -1,7 +1,8 @@
 
 import Tilt from 'react-parallax-tilt'
 
-import { DiJavascript } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa6";
@@ -31,7 +32,7 @@ export default function Skills() {
   return (
     <section id="skills-screen">
       <h1>Skills</h1>
-      <div className='skills-container'>
+      <div className='container' id='skills-container'>
         <div>
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35}>
             <div className='skills-card-inner'>
@@ -49,9 +50,17 @@ export default function Skills() {
           </Tilt>
         </div>
         <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <SiTypescript className='skills-icon' />
+              <p className='skills-name'>TypeScript</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up" data-aos-delay='500'>
             <div className='skills-card-inner'>
-              <DiJavascript className='skills-icon' />
+              <SiJavascript className='skills-icon' />
               <p className='skills-name'>JavaScript</p>
             </div>
           </Tilt>
@@ -168,14 +177,6 @@ export default function Skills() {
             </div>
           </Tilt>
         </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <TbTablePlus className='skills-icon' />
-              <p className='skills-name'>TablePlus</p>
-            </div>
-          </Tilt>
-        </div >
         <div data-aos="zoom-in-up" data-aos-delay='200'>
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>

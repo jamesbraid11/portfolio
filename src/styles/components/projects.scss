@@ -1,6 +1,5 @@
 #projects-screen {
-  width: 100%;
-  min-height: calc(100vh - 60px);
+  padding: 5% 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,13 +17,15 @@
 
 .project {
   background-color: white;
-  margin: 0 20px 40px 20px;
+  margin: 0 25px 50px 25px;
+  padding: 35px;
   width: 450px;
-  height: 533px;
+  height: 520px;
+  ;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.2em;
+  // font-size: 1.2em;
   border: solid 3px black;
   border-radius: 30px;
   box-shadow: 2px 2px 5px rgba(black, 1),
@@ -32,8 +33,8 @@
     2px 2px 25px rgba(black, .5);
 
   h3 {
-    font-size: 1.3em;
-    margin: 1em;
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
     text-align: center;
   }
 
@@ -55,7 +56,7 @@
   }
 
   .project-description {
-    margin: 0 1.8em;
+    margin: 0;
   }
 }
 
@@ -63,7 +64,7 @@
   .projects-container {
     width: 90%;
   }
-  
+
   .project {
     width: 295px;
     height: auto;
@@ -72,16 +73,20 @@
       font-size: 20px;
       margin: 22px;
     }
+
     .project-image {
       width: 238px;
       height: 155px;
     }
+
     .links {
       margin: 21px;
     }
+
     a {
       font-size: 15px;
     }
+
     .project-description {
       font-size: 14px;
       margin-bottom: 21px;
