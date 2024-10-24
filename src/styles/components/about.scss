@@ -73,9 +73,18 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 600px) {
   .profile-image {
     width: 300px;
     height: 300px;
+  }
+
+  .about-text {
+    width: 300px;
+  }
+
+  .about-p {
+    font-size: 13px;
+    font-weight: 500;
   }
 }

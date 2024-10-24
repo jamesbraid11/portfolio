@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section id="projects-screen">
       <h1>Projects</h1>
-      <div className="container projects-container">
+      <div className="container" id="projects-container">
         <div className="project">
           <h3>Poxymon</h3>
           <img className="project-image" src={Poxymon} alt="james braid poxymon project image" />
