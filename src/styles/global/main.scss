@@ -5,7 +5,8 @@
 @import '../components/projects.scss';
 @import '../components/contact.scss';
 @import '../components/footer.scss';
-@import '../components/textanimation.scss';
+@import '../components/textAnimation.scss';
+@import '../components/projectsCarousel.scss';
 
 * {
   box-sizing: border-box;
@@ -33,7 +34,7 @@ h1 {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 section {

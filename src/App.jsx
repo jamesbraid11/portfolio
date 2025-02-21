@@ -8,6 +8,8 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+import ProjectsCarousel from './components/ProjectsCarousel'
+
 function App() {
 
   function scrollEvent(e) {
@@ -30,6 +32,7 @@ function App() {
         <Element className='pseudo-page' id='projects'>
           <Projects />
         </Element>
+        <ProjectsCarousel />
         <Element className='pseudo-page' id='contact'>
           <Contact />
         </Element>
