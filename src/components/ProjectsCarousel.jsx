@@ -22,7 +22,7 @@ const projects = [
     description: "A full stack MERN application that helps users learn about wineries around the world."
   },
   {
-    title: "Harry Potter Character Index",
+    title: "Character Index",
     image: HpCharacterIndex,
     appLink: "https://harry-potter-character-index.netlify.app",
     repoLink: "https://github.com/jamesbraid11/hp-character-index#:~:text=Repository%20files%20navigation-,README,-Harry%20Potter%20Character",
