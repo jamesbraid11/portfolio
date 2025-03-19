@@ -7,7 +7,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-import ProjectsCarousel from './components/ProjectsCarousel'
+import ProjectsCarousel from './components/Projects'
 
 function App() {
 

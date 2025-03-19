@@ -5,8 +5,16 @@ import Poxymon from '../assets/images/projects/poxymon.png'
 import VinousVoyages from '../assets/images/projects/vinous-voyages.png'
 import HpCharacterIndex from '../assets/images/projects/hp-character-index.png'
 import KhFrogger from '../assets/images/projects/kh-frogger.png'
+import RyanRhodes from '../assets/images/projects/ryan-rhodes.png'
 
 const projects = [
+  {
+    title: "Ryan Rhodes",
+    image: RyanRhodes,
+    appLink: "https://ryanrhodes.coach/",
+    repoLink: "https://ryanrhodes.coach/",
+    description: "An application built using Elementor for a client's mind and body coaching business."
+  },
   {
     title: "Poxymon",
     image: Poxymon,
@@ -38,7 +46,7 @@ const projects = [
 ]
 
 const sliderSettings = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   slidesToShow: 3,
