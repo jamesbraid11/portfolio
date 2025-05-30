@@ -1,26 +1,28 @@
 #projects-screen {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  padding-right: 0;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 
   h1 {
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1%;
   }
 
-  .container {
+  .projects-container {
     padding: 20px;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    position: relative;
+    max-width: 1100px;
+    margin-bottom: 3.5em;
   }
 
-  .project {
+  .project-card-container {
+    width: 100vw;
+  }
+
+  .project-card {
     padding: 20px;
     margin: 25px;
     background: rgba(255, 255, 255, 0.9);

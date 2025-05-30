@@ -10,10 +10,14 @@ export default function About() {
         </div>
         <div className="about about-text">
           <p className="about-p about-p-top">
-            In my current role as a freelance WordPress Elementor Developer with Mota Creative, I specialise in transforming visually compelling designs into fully functional and responsive websites. I collaborate with designers, project managers, and clients to ensure design concepts are seamlessly turned into interactive web experiences. By leveraging WordPress and Elementor, I develop custom themes and layouts, focusing on both performance and user experience. This position has strengthened my skills in mobile-first design, UI/UX best practices, agile working and website optimisation, while reinforcing my ability to deliver engaging, high quality digital solutions efficiently.
-          </p>
+            Hi, I’m James — a full stack software engineer with a slightly unconventional journey into tech. Before diving into coding, I spent several years as a primary school teacher and digital lead, where I developed a love for problem-solving, creativity, and helping others grow — all of which naturally led me towards software development.</p>
+
+          <p className="about-p about-p-top">Since completing an immersive Software Engineering bootcamp with General Assembly, I’ve built full stack applications using technologies like React, Python/Django, Node.js, and MongoDB. I enjoy working across both frontend and backend, whether that’s building RESTful APIs, crafting clean UIs, or integrating authentication systems. In my current freelance role, I work with Mota Creative to design and build responsive, user-friendly websites using WordPress and Elementor, collaborating closely with clients to turn ideas into polished digital experiences.</p>
+
+          <p className="about-p about-p-top">I’m passionate about continuous learning and thrive in collaborative, Agile teams where I can contribute ideas and pick up new skills along the way. Outside of coding, I’m a big foodie (I’ve been lucky enough to visit a few Michelin-starred restaurants), a long-time Crystal Palace fan, and occasionally dust off the decks to DJ for friends and family.</p>
+
           <p className="about-p about-p-bottom">
-            Prior to this, driven by a passion for creative problem solving, I completed an intensive software engineering course with General Assembly where I developed four projects, including two full stack applications. This experience has equipped me with a strong foundation in programming, particularly in TypeScript, JavaScript, HTML, CSS, and Git. I have a deep interest in front end development with React, using hooks, React Router, and JSX to build intuitive interfaces. Additionally, I have strong experience with Python, having built the back end of my final project using Django. Having also worked with relational and non-relational databases, API integration and JSON Web Tokens, my technical acumen is ready to contribute meaningfully to any team.
+            Thanks for stopping by — feel free to check out my projects or get in touch!
           </p>
         </div>
       </div>

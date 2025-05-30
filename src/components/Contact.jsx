@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section id="contact-screen">
       <h1>Contact</h1>
-      <div className="container contact-container">
+      <div className="contact-container">
         <div className="link-container">
           <MdOutlineEmail fill="white" />
           <a href="mailto:james_braid@hotmail.co.uk">james_braid@hotmail.co.uk</a>

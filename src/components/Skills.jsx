@@ -32,7 +32,7 @@ export default function Skills() {
   return (
     <section id="skills-screen">
       <h1>Skills</h1>
-      <div className='container' id='skills-container'>
+      <div id='skills-container'>
         <div>
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35}>
             <div className='skills-card-inner'>

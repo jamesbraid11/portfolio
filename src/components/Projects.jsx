@@ -12,7 +12,6 @@ const projects = [
     title: "Ryan Rhodes",
     image: RyanRhodes,
     appLink: "https://ryanrhodes.coach/",
-    repoLink: "https://ryanrhodes.coach/",
     description: "An application built using Elementor for a client's mind and body coaching business."
   },
   {
@@ -41,7 +40,7 @@ const projects = [
     image: KhFrogger,
     appLink: "https://jamesbraid11.github.io/frogger-game/",
     repoLink: "https://github.com/jamesbraid11/frogger-game/tree/main?tab=readme-ov-file#kingdom-hearts-frogger-game:~:text=Repository%20files%20navigation-,README,-Kingdom%20Hearts%20Frogger",
-    description: "A frogger-style game built using HTML, CSS, and JavaScript."
+    description: "A Kingdom Hearts themed frogger-style game built using HTML, CSS, and vanilla JavaScript."
   }
 ]
 
@@ -56,12 +55,14 @@ const sliderSettings = {
 }
 
 const ProjectCard = ({ project }) => (
-  <div className="project">
+  <div className="project-card">
     <h3>{project.title}</h3>
     <img className="project-image" src={project.image} alt={project.title} />
     <div className="links">
       <a href={project.appLink} target="_blank" rel="noopener noreferrer">Application</a>
-      <a href={project.repoLink} target="_blank" rel="noopener noreferrer">ReadMe</a>
+      {project.repoLink && (
+        <a href={project.repoLink} target="_blank" rel="noopener noreferrer">ReadMe</a>
+      )}
     </div>
     <p className="project-description">{project.description}</p>
   </div>
@@ -71,16 +72,18 @@ export default function LoopingProjectGrid() {
 
   return (
     <section id="projects-screen">
-      <h1>Projects Carousel</h1>
-      <div className="container">
-        <Slider {...sliderSettings}>
-          {[...projects].map((project, index) => (
-            <ProjectCard
-              key={`${project.title}-${index}`}
-              project={project}
-            />
-          ))}
-        </Slider>
+      <h1>Projects</h1>
+      <div className="projects-container">
+        <div className="project-card-container">
+          <Slider {...sliderSettings}>
+            {[...projects].map((project, index) => (
+              <ProjectCard
+                key={`${project.title}-${index}`}
+                project={project}
+              />
+            ))}
+          </Slider>
+        </div>
       </div>
     </section>
   )
