@@ -13,13 +13,13 @@ const projects = [
     title: "Katric Properties",
     image: Katric,
     appLink: "https://katricproperty.co.uk/",
-    description: "A website created using Elementor with custom built features for a client's property renovation business."
+    description: "A website built in Elementor with custom features for a client's property renovation business."
   },
   {
     title: "Ryan Rhodes",
     image: RyanRhodes,
     appLink: "https://ryanrhodes.coach/",
-    description: "A website created using Elementor with custom built features for a client's mind and body coaching business."
+    description: "A website built in Elementor with custom features for a client's mind and body coaching business."
   },
   {
     title: "Poxymon",
@@ -55,7 +55,7 @@ const sliderSettings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 20000,

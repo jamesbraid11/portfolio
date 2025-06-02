@@ -6,7 +6,7 @@ export default function Nav() {
     <header>
       <div className="container header-container">
         <div className='scroll-buttons'>
-          <Link to='hero' offset={-60} spy={true} smooth={true} duration={500} className='scroll-link' id='home-link'>James Braid</Link>
+          <Link to='hero' offset={-60} spy={true} smooth={true} duration={500} className='scroll-link' id='home-link'>JB</Link>
         </div>
 
         <div className='scroll-buttons' id='nav-right'>
