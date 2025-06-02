@@ -13,8 +13,8 @@ header {
 }
 
 .header-container {
-  width: 1200px;
-  padding: 0 10px;
+  width: 1100px;
+  padding: 0 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,5 +34,9 @@ header {
   .scroll-link {
     font-size: 13px;
     margin: 8px;
+  }
+
+  .header-container {
+    padding: 0 12px;
   }
 }
