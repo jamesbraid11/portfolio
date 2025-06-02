@@ -4,7 +4,7 @@
 @import '../components/skills.scss';
 @import '../components/contact.scss';
 @import '../components/footer.scss';
-@import '../components/textAnimation.scss';
+@import '../components/textanimation.scss';
 @import '../components/projects.scss';
 
 * {
@@ -38,7 +38,7 @@ section {
 
 @media screen and (max-width: 600px) {
   section {
-    padding: 12% 5%;
+    padding: 14% 5%;
   }
 
   h1 {
