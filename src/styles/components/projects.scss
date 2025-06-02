@@ -22,15 +22,15 @@
     width: 1500px;
   }
 
-  .project {
+  .project-card {
     padding: 20px;
     margin: 25px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     border: 2px solid black;
-    box-shadow: 1px 1px 1px rgba(black, 1),
-      1px 1px 4px rgba(black, .35),
-      1px 1px 6px rgba(black, .5);
+    box-shadow: 2px 2px 5px rgba(black, 1),
+      2px 2px 17px rgba(black, .35),
+      2px 2px 25px rgba(black, .5);
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,6 @@
 
 @media screen and (max-width: 768px) {
   #projects-screen {
-
     .slick-prev {
       left: 30px;
     }
@@ -157,6 +156,4 @@
       }
     }
   }
-
-
 }
