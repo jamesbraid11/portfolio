@@ -6,13 +6,20 @@ import VinousVoyages from '../assets/images/projects/vinous-voyages.png'
 import HpCharacterIndex from '../assets/images/projects/hp-character-index.png'
 import KhFrogger from '../assets/images/projects/kh-frogger.png'
 import RyanRhodes from '../assets/images/projects/ryan-rhodes.png'
+import Katric from '../assets/images/projects/katric.png'
 
 const projects = [
+  {
+    title: "Katric Properties",
+    image: Katric,
+    appLink: "https://katricproperty.co.uk/",
+    description: "A website created using Elementor with custom built features for a client's property renovation business."
+  },
   {
     title: "Ryan Rhodes",
     image: RyanRhodes,
     appLink: "https://ryanrhodes.coach/",
-    description: "An application built using Elementor for a client's mind and body coaching business."
+    description: "A website created using Elementor with custom built features for a client's mind and body coaching business."
   },
   {
     title: "Poxymon",
@@ -48,7 +55,7 @@ const sliderSettings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 20000,

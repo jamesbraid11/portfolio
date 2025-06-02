@@ -15,6 +15,8 @@
 .about-container {
   display: flex;
   justify-content: center;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .about-image {
@@ -80,7 +82,8 @@
   }
 
   .about-text {
-    width: 300px;
+    width: 100%;
+    padding: 0 20px;
   }
 
   .about-p {
