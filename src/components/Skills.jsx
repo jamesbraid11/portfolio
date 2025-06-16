@@ -17,10 +17,9 @@ import { SiMongoose } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { TbTablePlus } from "react-icons/tb";
-import { FaNpm } from "react-icons/fa6";
+import { FaWordpress } from "react-icons/fa";
 import { SiJsonwebtokens } from "react-icons/si";
-import { BiLogoNetlify } from "react-icons/bi";
+import { FaElementor } from "react-icons/fa6";
 import { SiHeroku } from "react-icons/si";
 import { FaCloud } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
@@ -69,10 +68,50 @@ export default function Skills() {
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
               <FaReact className='skills-icon' />
-              <p className='skills-name'>React.js</p>
+              <p className='skills-name'>React</p>
             </div>
           </Tilt>
         </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <FaPython className='skills-icon' />
+              <p className='skills-name'>Python</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <SiDjango className='skills-icon' />
+              <p className='skills-name'>Django</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <FaWordpress className='skills-icon' />
+              <p className='skills-name'>WordPress</p>
+            </div>
+          </Tilt>
+        </div >
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <FaElementor className='skills-icon' />
+              <p className='skills-name'>Elementor</p>
+            </div>
+          </Tilt>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-delay='200'>
+          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
+            <div className='skills-card-inner'>
+              <FaNode className='skills-icon' />
+              <p className='skills-name'>Node.js</p>
+            </div>
+          </Tilt>
+        </div >
         <div data-aos="zoom-in-up" data-aos-delay='200'>
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
@@ -116,38 +155,6 @@ export default function Skills() {
         <div data-aos="zoom-in-up" data-aos-delay='200'>
           <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
             <div className='skills-card-inner'>
-              <FaPython className='skills-icon' />
-              <p className='skills-name'>Python</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <SiDjango className='skills-icon' />
-              <p className='skills-name'>Django</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <FaNode className='skills-icon' />
-              <p className='skills-name'>Node.js</p>
-            </div>
-          </Tilt>
-        </div >
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <FaNpm className='skills-icon' />
-              <p className='skills-name'>npm</p>
-            </div>
-          </Tilt>
-        </div >
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
               <SiJsonwebtokens className='skills-icon' />
               <p className='skills-name'>JWT</p>
             </div>
@@ -174,14 +181,6 @@ export default function Skills() {
             <div className='skills-card-inner'>
               <BiLogoPostgresql className='skills-icon' />
               <p className='skills-name'>PostgreSQL</p>
-            </div>
-          </Tilt>
-        </div>
-        <div data-aos="zoom-in-up" data-aos-delay='200'>
-          <Tilt className='skills-card parallax-effect-glare-scale' perspective={500} glareEnable={true} glareMaxOpacity={0.2} scale={1.35} data-aos="zoom-in-up">
-            <div className='skills-card-inner'>
-              <BiLogoNetlify className='skills-icon' />
-              <p className='skills-name'>Netlify</p>
             </div>
           </Tilt>
         </div>
