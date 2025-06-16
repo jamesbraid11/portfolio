@@ -33,7 +33,7 @@ const projects = [
     image: VinousVoyages,
     appLink: "https://vinous-voyages-8453f6380e78.herokuapp.com/",
     repoLink: "https://github.com/jamesbraid11/Vinous-Voyages/tree/main#:~:text=Repository%20files%20navigation-,README,-Vinous%20Voyages",
-    description: "A full stack MERN application that helps users learn about wineries around the world."
+    description: "A full stack MERN application that allows users to learn about wineries around the world or add to the database."
   },
   {
     title: "Character Index",
@@ -43,7 +43,7 @@ const projects = [
     description: "A multi-component React app that consumes the Harry Potter API for character and spell information."
   },
   {
-    title: "Kingdom Hearts Frogger",
+    title: "KH Frogger",
     image: KhFrogger,
     appLink: "https://jamesbraid11.github.io/frogger-game/",
     repoLink: "https://github.com/jamesbraid11/frogger-game/tree/main?tab=readme-ov-file#kingdom-hearts-frogger-game:~:text=Repository%20files%20navigation-,README,-Kingdom%20Hearts%20Frogger",
@@ -55,7 +55,7 @@ const sliderSettings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: 5,
+  slidesToShow: 6,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 20000,
